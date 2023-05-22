@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Papo Vai TV",
+    "slug": "papovaitv",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1C1B1A"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#1C1B1A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/d2b3d963-0b7e-454d-8a94-f2c793bbc1d7"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1C1B1A"
+      },
+      "package": "com.sporti.papovaitv",
+      "permissions": []
+    },
+    "ios": {
+      "buildNumber": "1.0",
+      "bundleIdentifier": "com.sporti.papovaitv",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "d2b3d963-0b7e-454d-8a94-f2c793bbc1d7"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

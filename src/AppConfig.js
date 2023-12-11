@@ -1,6 +1,6 @@
 module.exports = {
-  ColorTheme: "#1C1B1A",
-  UrlPortal: "https://plataforma.sporti.com.br/AFFI",
-  UrlPainel: "https://painel.sporti.com.br/",
+  ColorTheme: "#5f99d4",
+  UrlPortal: "https://escoladoesporte.com.br/redesporti/unidades/secretaria-de-juventude-esporte-e-lazer",
+  UrlPainel: "https://painel.escoladoesporte.com.br/",
   TimeSplashScreen: 3000,
 };

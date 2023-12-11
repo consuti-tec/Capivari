@@ -1,22 +1,22 @@
 {
   "expo": {
-    "name": "Papo Vai TV",
-    "slug": "papovaitv",
+    "name": "Secretaria de Juventude, Esporte e Lazer de Capivari",
+    "slug": "secretaria-de-juventude-e-esporte-e-lazer-de-capivari",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1C1B1A"
+      "backgroundColor": "#5f99d4"
     },
     "androidNavigationBar": {
       "barStyle": "light-content",
-      "backgroundColor": "#1C1B1A"
+      "backgroundColor": "#5f99d4"
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/d2b3d963-0b7e-454d-8a94-f2c793bbc1d7"
+      "url": "https://u.expo.dev/77bee3f7-59fe-4137-b6a0-7d191d44a057"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,25 +25,25 @@
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#1C1B1A"
+        "backgroundColor": "#5f99d4"
       },
-      "package": "com.sporti.papovaitv",
+      "package": "com.sporti.secretariadejuventudeeesporteelazerdecapivari",
       "permissions": []
     },
     "ios": {
       "buildNumber": "1.0",
-      "bundleIdentifier": "com.sporti.papovaitv",
+      "bundleIdentifier": "com.sporti.secretariadejuventudeeesporteelazerdecapivari",
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
         "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
       }
     },
-    "entryPoint": "node_modules/expo/AppEntry.js",
+    "main": "node_modules/expo/AppEntry.js",
     "description": "",
     "extra": {
       "eas": {
-        "projectId": "d2b3d963-0b7e-454d-8a94-f2c793bbc1d7"
+        "projectId": "77bee3f7-59fe-4137-b6a0-7d191d44a057"
       }
     },
     "runtimeVersion": {
